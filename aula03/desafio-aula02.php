@@ -18,8 +18,9 @@
                 &nbsp; &nbsp;    "nome" => "Marcelo", <br>
                 &nbsp; &nbsp;    "email" => "mdiament@digitalhouse.com", <br>
                 &nbsp; &nbsp;    "senha" => "123456" <br>
-                &nbsp; ] <br>
-            ];
+                &nbsp; ] <br> <!-- &nbsp aplica espaço -->
+                
+                            ];
         </div>
 
         <?php
@@ -39,7 +40,7 @@
 
         <p class="my-5">A tabela abaixo está listando usuários a medida que percorre o array $listaDeUsuarios</p>
 
-        <table class="table mt-5">
+        <table class="table mt-5"> <!--table do bootstrap link: https://getbootstrap.com/docs/4.4/content/tables/-->
             <thead class="thead-dark">
                 <tr>
                     <th scope="col">Nome</th>
@@ -48,8 +49,8 @@
                 </tr>
             </thead>
             <tbody>
-                <?php foreach ($listaDeUsuarios as $usuario): ?>
-                    <tr>
+                <?php foreach ($listaDeUsuarios as $usuario): ?> <!--percorrer usuario por vez, dentro da lista-->
+                        <tr> <!--table row -->
                         <td><?= $usuario["nome"]; ?></td>
                         <td><?= $usuario["email"]; ?></td>
                         <td><?= $usuario["senha"]; ?></td>

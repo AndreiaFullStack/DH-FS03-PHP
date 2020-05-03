@@ -1,6 +1,6 @@
 <?php
     $tituloDaPagina = "Métodos | PHP - Aula 03";
-    require_once("./inc/head.php");
+    require_once("./inc/head.php"); 
 ?>
 <body>
     <?php require_once("./inc/header.php"); ?>

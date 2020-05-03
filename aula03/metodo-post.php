@@ -3,7 +3,7 @@
     require_once("./inc/head.php");
 ?>
 <body>
-    <?php require_once("./inc/header.php"); ?>
+    <?php require_once("./inc/header.php"); ?> <!--require inclui varias vezes e require once precisa so uma vez-->
     <main class="container my-5">
 
         <form action="metodos.php" method="POST" class="col-6 mx-auto border rounded bg-light p-4">
